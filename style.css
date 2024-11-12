@@ -86,6 +86,22 @@ button{
     margin: 20px 0px;
     background-color: aqua;
     padding:10px 20px;
+    display: block;
+}
+.car{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+}
+.icon-car{
+     
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+.fa-star{
+    color: yellow;
 }
 
 @media (max-width:890px){
